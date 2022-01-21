@@ -1,0 +1,14 @@
+.cover__overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.3) inset;
+    transition: all 0.5s ease;
+}
+
+.cover__overlay:hover {
+    box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.8) inset;
+}
