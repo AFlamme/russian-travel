@@ -1,9 +1,9 @@
 .page {
     position: relative;
-    width: 1280px;
-    height: 6875px;
+    max-width: 1280px;
     background: #2A2C2F;
     margin: 0 auto;
+    padding-top: 28px;
 }
 
 @media screen and (max-width: 320px) {
