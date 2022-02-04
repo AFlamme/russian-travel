@@ -1,7 +1,7 @@
 .body {
     background-color: #2A2C2F;
     color: #FFF;
-    font-family: "Inter", "Arial", "sans-serif";
+    font-family: "Inter", "Arial", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;

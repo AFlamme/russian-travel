@@ -7,13 +7,12 @@
 @media screen and (max-width: 1024px) {
     .intro {
         width: 90%;
-        padding-bottom: 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: 93%;
+        width: 288px;
         padding-bottom: 88px;
     }
 }

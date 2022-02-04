@@ -5,13 +5,14 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
-    margin: 0 0 32px;
+    margin: 0 0 16px;
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
         width: 100%;
-        font-size: 60px;
+        font-size: 72px;
+        line-height: 76px;
     }
 }
 
