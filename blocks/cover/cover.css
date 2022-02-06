@@ -14,12 +14,14 @@
     .cover {
         width: 100%;
         min-height: 640px;
+        margin-bottom: 0 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         min-height: 480px;
+        margin-bottom: 0 88px;
     }
 }
 
