@@ -1,1 +1,9 @@
-.footer__item {}
+.footer__item {
+    padding-bottom: 32px;
+    padding-right: 18px;
+}
+
+.footer__item:last-child {
+    padding-bottom: 0;
+    padding-right: 0;
+}

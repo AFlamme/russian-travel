@@ -8,17 +8,18 @@
 }
 
 .places__place:last-child {
+    padding-top: 0;
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .places__place {
         grid-template-columns: 440px 1fr;
         grid-column-gap: 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .places__place {
         padding-bottom: 73px;
         grid-template-columns: 340px 1fr;
@@ -26,10 +27,15 @@
     }
 }
 
+@media screen and (max-width: 740px) {
+    .places__place {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, min-content);
+    }
+}
+
 @media screen and (max-width: 640px) {
     .places__place {
         padding-bottom: 0;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, min-content);
     }
 }

@@ -1,10 +1,9 @@
 .footer__menu {
-    display: grid;
+    display: flex;
     list-style-type: none;
     justify-items: start;
-    align-items: end;
-    grid-auto-flow: auto;
-    grid-column-gap: 18px;
+    align-items: flex-start;
+    flex-direction: row;
     font-size: 16px;
     line-height: 18px;
     padding: 0;
@@ -13,8 +12,7 @@
 
 @media screen and (max-width: 750px) {
     .footer__menu {
-        grid-auto-flow: auto;
-        grid-row-gap: 32px;
+        flex-direction: column;
         font-size: 24px;
         line-height: 24px;
     }
