@@ -17,15 +17,18 @@
     }
 }
 
-@media screen and (max-width: 640px) {
-    .places__paragraph {
-        grid-column: 1;
-        line-height: 27px;
-    }
+@media screen and (max-width: 740px) {
     .places__paragraph:first-child {
         padding: 32px 0 25px;
     }
     .places__paragraph:last-child {
         padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .places__paragraph {
+        grid-column: 1;
+        line-height: 27px;
     }
 }
